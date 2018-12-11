@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Fetch</title>
+</head>
+<body>
+    <div class="content" id="imgPage">
+        <p>Image page</p>
+        <br>
+        <a href="/weather">Weather</a>
+        <a href="/home">Homepage</a>
+        <form id="search-form" enctype="application/json" action="/image" method="post">
+        	<input class="searchForm" id="searchQuery" name="searchQuery" type="text" value="" />
+        	<input class="searchForm" id="searchButton" type="submit" value="Search" />
+        </form>
+        
+        <div class="results" id="searchResults">
+        	{{{parsed}}}
+            
+        </div>
+    </div>
+</body>
+
+</html>
