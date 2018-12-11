@@ -5,6 +5,8 @@ const pixabay = require('./pixbay')
 
 var app = express();
 
+const port process.env.PORT || 8080;
+
 app.set('view engine','hbs');
 app.use(express.static(__dirname + '/public'));
 app.use(express.json());
@@ -42,7 +44,7 @@ app.get('/weather', (request, response) => {
     });
 });
 
-app.listen(8080, () => {
+app.listen(port, () => {
     console.log('Server is up on the port 8080');
 });
 

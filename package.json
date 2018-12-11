@@ -1,13 +1,8 @@
 {
-  "name": "juston",
+  "name": "final",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "author": "Ko Iketani",
-  "license": "ISC",
+  "description": "",
+  "main": "app.js",
   "dependencies": {
     "darksky": "^0.1.2",
     "express": "^4.16.4",
@@ -17,5 +12,10 @@
     "request": "^2.88.0"
   },
   "devDependencies": {},
-  "description": ""
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "author": "Juston Chuang",
+  "license": "ISC"
 }
